@@ -1,2 +1,27 @@
 chapter0
 计算机概论
+
+1.计算机：辅助人脑的好工具
+2.个人计算机架构与设备借口
+3.数据表示方式
+4.数据表示方式
+
+计算机硬件5大单元：
+	1.输入单元
+	2.输出单元
+	3.CPU内部的控制单元
+	4.CPU内部的算数逻辑单元
+	5.CPU内部的主存储器
+
+CPU种类: 精简指令集(Reduced Instruction Set Computing,RISC)
+         复杂指令集(Complex Instruction Set Computing,CISC)
+
+计算机分类: 超级计算机(Super Computer)
+						大型计算机(Mainframe Computer)
+						迷你计算机(Mini Compuer)
+						工作站(Workstation)
+            微电脑(Micro Computer)
+
+0/1单位bit, 1 Byte = 8 bits
+
+
