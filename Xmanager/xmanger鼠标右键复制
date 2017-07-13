@@ -1,0 +1,4 @@
+参考：https://jingyan.baidu.com/article/d8072ac45e7663ec95cefd91.html
+1.打开xshell5，单击菜单栏的“Tools”选项，选中“Options”菜单，进入参数设置界面。
+2.切换到"Keyboard and Mouse"栏，把"Right-bottox"要素的值选为“Paste the clipboard contents”，点击确定。在选项“Copy selected text to the auto”打“√”。
+3.按住左键选中内容，需要输入的地方点击右键即可粘贴。
