@@ -1,0 +1,8 @@
+参考：1. http://www.cnblogs.com/Anker/p/3242207.html
+      2. https://blog.csdn.net/guoxiaojie_415/article/details/52206139
+
+我的思考是：
+路径projectA, projectB下包含*.c文件
+  
+定义搜索路径：%.c文件按顺序在projectA和projecB下搜索
+vpath = %.c projectA:projectB
