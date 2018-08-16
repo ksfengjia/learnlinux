@@ -1,0 +1,7 @@
+Linux 技巧：让进程在后台可靠运行的几种方法
+
+URL: https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/index.html
+
+1. nohup ping www.ibm.com &
+2. setsid ping www.ibm.com
+3. (ping www.ibm.com &)
