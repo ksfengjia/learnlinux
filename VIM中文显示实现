@@ -1,0 +1,18 @@
+感谢computer055maxi网友分享
+http://blog.csdn.net/computer055maxi/article/details/6149281
+
+此文讲解的是vim编辑多字节编码文档（中文）所要了解的一些基础知识，注意其没有涉及gvim，纯指字符终端下的vim。
+
+vim编码方面的基础知识：
+
+1，存在3个变量：
+encoding—-该选项使用于缓冲的文本(你正在编辑的文件)，寄存器，Vim 脚本文件等等。你可以把 ‘encoding’ 选项当作是对 Vim 内部运行机制的设定。
+fileencoding—-该选项是vim写入文件时采用的编码类型。
+termencoding—-该选项代表输出到客户终端（Term）采用的编码类型。
+
+2，此3个变量的默认值：
+encoding—-与系统当前locale相同，所以编辑文件的时候要考虑当前locale，否则要设置的东西就比较多了。
+fileencoding—-vim打开文件时自动辨认其编码，fileencoding就为辨认的值。为空则保存文件时采用encoding的编码，如果没有修改encoding，那值就是系统当前locale了。
+termencoding—-默认空值，也就是输出到终端不进行编码转换。
+
+由此可见，编辑不同编码文件需要注意的地方不仅仅是这3个变量，还有系统当前locale和、文件本身编码以及自动编码识别、客户运行vim的终端所使用的编码类型3个关键点，这3个关键点影响着3个变量的设定。 
